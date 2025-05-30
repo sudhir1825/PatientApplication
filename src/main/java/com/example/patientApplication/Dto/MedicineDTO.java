@@ -7,7 +7,7 @@ public class MedicineDTO {
     private String name;
     private String dosage;
     private String instructions;
-    private String contactNumber; // NEW FIELD
+    private String contactNumber; 
 
     public MedicineDTO() {
     }
