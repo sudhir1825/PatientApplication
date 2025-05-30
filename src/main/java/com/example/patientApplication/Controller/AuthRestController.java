@@ -32,7 +32,7 @@ public class AuthRestController {
         return ResponseEntity.ok("Registration successful");
     }
 
-    // Optionally add an endpoint to verify login status (Spring Security handles the login itself)
+    
     @GetMapping("/login-status")
     public ResponseEntity<String> loginStatus() {
         return ResponseEntity.ok("Login page or status (for frontend handling)");
