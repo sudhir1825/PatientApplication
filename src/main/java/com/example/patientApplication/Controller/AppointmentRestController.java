@@ -31,7 +31,7 @@ public class AppointmentRestController {
     // Get all doctors
     @GetMapping("/doctors")
     public List<?> getAllDoctors() {
-        return doctorService.getAllDoctors(); // You can cast this to List<DoctorDTO> if needed
+        return doctorService.getAllDoctors(); 
     }
 
     // Get available slots for a doctor
