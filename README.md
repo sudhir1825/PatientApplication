@@ -2,6 +2,11 @@
 
 A full-stack Spring Boot web application for managing patient registrations, booking appointments with doctors, and handling medication details. It supports both admin and patient functionalities with login, CRUD operations, and secure access.
 
+How the application works:
+
+Check it out in this link - https://drive.google.com/file/d/1X6-ry6Bs7qq2QDmn7-1mxXSXefMoSY72/view?usp=sharing
+
+
 ---
 
 ## 📝 Description
