@@ -23,7 +23,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(ResourceNotFoundException.class)
     public String handleResourceNotFound(ResourceNotFoundException ex, RedirectAttributes redirectAttributes) {
         redirectAttributes.addFlashAttribute("errorMessage", ex.getMessage());
-        return "redirect:/admin/medications"; // Or wherever your admin page is
+        return "redirect:/admin/medications"; 
     }
 
 }
