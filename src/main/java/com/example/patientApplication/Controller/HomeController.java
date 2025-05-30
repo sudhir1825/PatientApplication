@@ -43,7 +43,7 @@ public class HomeController {
         List<MedicineDTO> medicines = medicineService.getMedicinesByContactNumber(contactNumber);
         model.addAttribute("medicines", medicines);
 
-        return "home";  // your Thymeleaf home.html template
+        return "home";  //Thymeleaf home.html template
     }
 
 }
